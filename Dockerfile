@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 # WORKDIR /bustub
-# COPY . /cmu-15445
+# COPY . /mit6.081
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -58,11 +58,11 @@ CMD ["/bin/bash"]
 
 # build command
 # docker build --network=host -t <imagename> .
-# docker build --network=host -t bustub-dev .
+# docker build --network=host -t mit6.081 .
 
 # run container
 # docker run -it --rm <imagename>
-# docker run -it bustub-dev
+# docker run -it mit6.081
 # docker run -it --name <container> <image>
 # 列出所有容器
 # docker ps -a
